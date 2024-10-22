@@ -1,0 +1,50 @@
+/*--------items-----------------------------------------------------------------*/
+
+#itemContainer {
+  margin-bottom: 30px;
+}
+table,
+th,
+td {
+  border-collapse: collapse;
+  padding: 10px 30px;
+}
+
+table,
+tr {
+  border: 1px solid black;
+}
+
+table {
+  width: 90%;
+  text-align: center;
+  margin-left: 5%;
+}
+
+h1 {
+  margin-left: 40px;
+}
+
+img {
+  width: 40px;
+  height: 50px;
+  padding: 0px;
+}
+button {
+  height: 30px;
+  font-size: 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 0px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #ead8c0;
+}
+
+.heading {
+  display: flex;
+}
+
+.heading button {
+  margin: 30px 0px 0px 980px;
+}

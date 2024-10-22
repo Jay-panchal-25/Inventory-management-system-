@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DashBoard</title>
+    <link rel="stylesheet" href="Assets/CSS/index.css" />
+    <link rel="stylesheet" href="Assets/CSS/users.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="sidebar">
+        <li><img src="Assets/Image/sidebar.png" alt="" id="dashImg" /></li>
+
+        <li>
+          <a href="index.html">DashBoard</a>
+          <img src="Assets/Image/dashboard.png" alt="" />
+        </li>
+        <li>
+          <a href="item.html">Items & Stocks</a>
+          <img src="Assets/Image/stock.png" alt="" />
+        </li>
+        <li>
+          <a href="">Orders</a>
+          <img src="Assets/Image/order.png" alt="" />
+        </li>
+        <li>
+          <a href="">Delivered</a>
+          <img src="Assets/Image/delivered.png" alt="" />
+        </li>
+        <li>
+          <a href="users.html">Add Users</a>
+          <img src="Assets/Image/customer.png" alt="" />
+        </li>
+      </div>
+    </div>
+    <nav>
+      <li>Inventory Management System</li>
+      <li id="logout">Logout</li>
+    </nav>
+    <div class="container">
+      <form action="">
+        <label>User name:-</label>
+
+        <input
+          type="text"
+          name="uname"
+          id="uname"
+          placeholder="Enter Your User Name"
+        />
+
+        <label> Email Id:-</label>
+        <input
+          type="email"
+          name="email"
+          id="emain"
+          placeholder="example00@gmail.com"
+        />
+        <label>Mobile Number:-</label>
+        <input
+          type="number"
+          name="mobileNo"
+          id="mobileNo"
+          placeholder="only ten number"
+        />
+        <label>Post:-</label>
+        <input type="text" name="Post" id="Post" placeholder="Admin" />
+        <label> DOB:-</label>
+        <input type="date" name="" id="" />
+
+        <div class="buttons">
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

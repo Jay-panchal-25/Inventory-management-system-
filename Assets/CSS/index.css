@@ -1,0 +1,115 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "DM Sans", sans-serif;
+  background-color: #fff;
+  color: black;
+}
+
+.container {
+  margin-left: 300px;
+}
+
+/*--------Navbar-----------------------------------------------------------------*/
+nav {
+  list-style-type: none;
+  background-color: #ead8c0;
+
+  height: 80px;
+  margin-left: 300px;
+  display: flex;
+}
+nav #logout {
+  padding-left: 800px;
+  font-size: 20px;
+}
+
+nav li {
+  font-size: 30px;
+  padding: 20px 30px;
+}
+
+/*--------Sidebar-----------------------------------------------------------------*/
+.wrapper {
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar {
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  background-color: #ead8c0;
+}
+.wrapper .sidebar li {
+  list-style-type: none;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 30px 0px;
+}
+
+.wrapper .sidebar a {
+  text-decoration: none;
+  color: black;
+}
+.wrapper .sidebar li:hover {
+  background-color: #a79277;
+}
+.sidebar #dashImg {
+  height: 150px;
+  width: 150px;
+  opacity: 100%;
+}
+.sidebar img {
+  height: 25px;
+  width: 25px;
+  opacity: 40%;
+}
+/*--------DashBoard-----------------------------------------------------------------*/
+.mainBoard {
+  height: 780px;
+
+  align-content: center;
+}
+.mainBoard h1 {
+  padding-left: 40px;
+  font-size: 40px;
+}
+
+#rowBox {
+  display: flex;
+}
+
+#box {
+  height: 250px;
+  width: 450px;
+  background: #c9dabf;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-left: 9px solid #5f6f65;
+}
+
+.BoxText {
+  font-size: 30px;
+  padding-left: 30px;
+}
+
+.countImg {
+  font-size: 70px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.count {
+  padding-top: 40px;
+}
+
+.countImg img {
+  height: 150px;
+  width: 150px;
+  padding-right: 30px;
+  opacity: 20%;
+}
