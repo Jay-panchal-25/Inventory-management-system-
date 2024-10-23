@@ -13,7 +13,7 @@ body {
 /*--------Navbar-----------------------------------------------------------------*/
 nav {
   list-style-type: none;
-  background-color: #ead8c0;
+  background-color: floralwhite;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   height: 80px;
@@ -41,7 +41,7 @@ nav li {
   position: fixed;
   width: 300px;
   height: 100%;
-  background-color: #ead8c0;
+  background-color: floralwhite;
   box-shadow: rgba(0, 0, 0, 0.25) 7px 0px 10px;
 }
 .wrapper .sidebar li {
@@ -89,13 +89,13 @@ nav li {
 #box {
   height: 250px;
   width: 450px;
-  background: #c9dabf;
+
   margin: 30px;
   display: flex;
   border-radius: 15px;
   flex-direction: column;
   justify-content: space-around;
-  border-left: 9px solid #5f6f65;
+
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
@@ -120,4 +120,34 @@ nav li {
   width: 150px;
   padding-right: 30px;
   opacity: 20%;
+}
+
+.items {
+  background-color: rgb(254, 254, 191);
+  border-left: 9px solid rgb(255, 255, 93);
+}
+
+.orders {
+  background-color: rgb(225, 235, 255);
+  border-left: 9px solid rgb(82, 140, 255);
+}
+
+.pending {
+  background-color: rgb(255, 212, 212);
+  border-left: 9px solid rgb(255, 49, 49);
+}
+
+.deliverd {
+  background-color: rgb(183, 255, 183);
+  border-left: 9px solid rgb(74, 255, 74);
+}
+
+.users {
+  background-color: rgb(253, 229, 184);
+  border-left: 9px solid rgb(255, 188, 62);
+}
+
+.customer {
+  background-color: rgb(190, 246, 255);
+  border-left: 9px solid rgb(53, 228, 255);
 }
