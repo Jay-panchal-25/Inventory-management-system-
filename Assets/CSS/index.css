@@ -19,16 +19,27 @@ nav {
   height: 80px;
   margin-left: 300px;
   display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
 }
 nav #logout {
-  padding-left: 800px;
   font-size: 20px;
-  padding-top: 30px;
 }
 
 nav li {
   font-size: 25px;
-  padding: 20px 30px;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+.logoutArea {
+  display: flex;
+}
+
+.logoutArea img {
+  height: 35px;
+  width: 35px;
+  padding: 20px 20px 0px 10px;
 }
 
 /*--------Sidebar-----------------------------------------------------------------*/
@@ -62,10 +73,13 @@ nav li {
   background-color: #a79277;
 }
 .sidebar #dashImg {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   opacity: 100%;
+  margin: 0px;
+  padding: 0px;
 }
+
 .sidebar img {
   height: 25px;
   width: 25px;
