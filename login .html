@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="Assets/CSS/login.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <form id="loginForm">
+        <h2>Login Page</h2>
+        <div class="input-group">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Enter your username"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter your password"
+            required
+          />
+        </div>
+        <div class="buttons">
+          <button type="submit" class="btn">Login</button>
+          <button type="reset">Reset</button>
+        </div>
+
+        <p id="error-message" class="error"></p>
+      </form>
+    </div>
+
+    <!-- JavaScript goes here -->
+    <script>
+      document
+        .getElementById("loginForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          var username = document.getElementById("username").value;
+          var password = document.getElementById("password").value;
+          var errorMessage = document.getElementById("error-message");
+
+          // Dummy validation for username and password
+          if (username === "admin" && password === "123") {
+            errorMessage.style.color = "green";
+            errorMessage.textContent = "Login successful!";
+
+            // Redirect to the next page after a short delay
+            setTimeout(function () {
+              window.location.href = "index.html"; // Replace with your actual next page
+            }, 1000);
+          } else {
+            errorMessage.textContent = "Invalid username or password!";
+          }
+        });
+    </script>
+  </body>
+</html>
